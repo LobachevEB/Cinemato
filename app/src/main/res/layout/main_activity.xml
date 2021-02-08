@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity"/>
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+    <fragment
+            android:layout_width="match_parent"
+            android:layout_height="340dp" android:name="com.example.cinemato.ui.main.NowplayingFragment"
+            android:id="@+id/fragment"/>
+    <fragment
+            android:layout_width="match_parent"
+            android:layout_height="389dp" android:name="com.example.cinemato.ui.main.OngoingFragment"
+            android:id="@+id/fragment2"/>
+</LinearLayout>

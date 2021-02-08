@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cinemato</string>
+    <string name="current_movies">Сейчас в кинотеатрах</string>
+    <string name="upcoming_movies">Ожидаются</string>
+</resources>
